@@ -1,9 +1,23 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { MdKeyboardArrowRight, MdMenu } from 'react-icons/md';
-import { prices, products, rams } from '../../ults';
+import { prices, rams } from '../../ults';
 
 const FilterElement = () => {
     const [open, setOpen] = useState(false);
+    const [products, setProducts] = useState();
+
+
+
+
+    useEffect(() => {
+        fetch('http://localhost:5000/allphone')
+            .then(res => res.json())
+            .then(data => setProducts(data))
+
+
+
+    }, [])
+
 
     return (
         <div>
@@ -44,15 +58,17 @@ const FilterElement = () => {
 
                     </div>
 
-                    <div className="pt-8 flex justify-center items-center gap-2">
+                    <div className="pt-8 flex justify-center items-center gap-2 ">
                         <h6 className='text-lg text-gray-200'>Catagory</h6>
-                        <select name="catagory-list" id="" className={`bg-transparent border text-gray-300 outline-none ${!open && "hidden"} origin-left duration-200`}>
-                            <option className='text-black ' value="">select catagory</option>
+                        <select name="catagory-list" id="" className={`bg-transparent border text-gray-300 w-32 outline-none ${!open && "hidden"} origin-left duration-200`}>
+                            <option className='text-black ' >select catagory</option>
                             {
-                                products.map(catagories => (<option className='text-black' key={catagories.id}>{catagories.name}</option>))
+                                products?.map(catagories => (<option className='text-black' key={catagories._id} >{catagories.name}</option>))
                             }
                         </select>
+
                     </div>
+
                 </div>
             </div>
         </div>

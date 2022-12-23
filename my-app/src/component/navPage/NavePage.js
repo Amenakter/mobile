@@ -6,6 +6,7 @@ import Contact from '../../pages/Contact'
 import Home from '../../pages/Home'
 import Services from '../../pages/Services'
 import ProductDetails from '../productDetails/ProductDetails'
+import ServiceDetails from '../services/ServiceDetails'
 
 
 const NavPage = () => {
@@ -17,7 +18,8 @@ const NavPage = () => {
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/services' element={<Services />} />
                 <Route path='/blog' element={<Blog />} />
-                <Route path='/productDetails:id' element={<ProductDetails />} />
+                <Route path='/productDetails/:id' element={<ProductDetails />} />
+                <Route path='/serviceDetails/:id' element={<ServiceDetails />} />
             </Routes>
         </div>
     )

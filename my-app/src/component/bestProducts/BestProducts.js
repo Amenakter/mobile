@@ -1,14 +1,25 @@
-import React, { useState } from 'react';
-import { AiOutlineSearch } from 'react-icons/ai'
+import React, { useEffect, useState } from 'react';
+import { AiOutlineSearch } from 'react-icons/ai';
 import Products from '../../pages/Products';
-import { products } from '../../ults';
 
 const BestProducts = () => {
     const [search, setSearch] = useState([])
     const [record, setRecord] = useState([])
+    const [allPhone, setAllPhone] = useState();
+
+
+
+    useEffect(() => {
+        fetch('http://localhost:5000/allphone')
+            .then(res => res.json())
+            .then(data => setAllPhone(data))
+
+
+    }, [])
 
     const handlechange = (searchItem) => {
         setRecord(searchItem);
+        console.log(searchItem);
 
     }
     return (
@@ -22,7 +33,7 @@ const BestProducts = () => {
             <div className='h-auto  '>
                 <div className='flex flex-col gap-6 p-8'>
                     {
-                        products.filter((product) => product.name.toLowerCase().includes(record)).map((product) => <Products key={product.id} product={product} />)
+                        allPhone?.filter((product) => product?.name?.toLowerCase().includes(record)).map((product) => <Products key={product._id} product={product} />)
                     }
                 </div>
 

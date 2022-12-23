@@ -1,16 +1,12 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
 
-const Button = ({ id }) => {
+const Button = () => {
 
-    const navigate = useNavigate()
-    const productHandle = (id) => {
-        navigate(`/productDetails:${id}`);
-    }
+
     return (
         <div className='flex gap-2 mt-16'>
             <button
-                onClick={() => productHandle(id)}
+
                 className=' text-black font-semibold p-2 w-48 rounded
                 hover:bg-blue-300 transition ease-in-out
                 duration-100 mt-4 border border-gray-300'>
@@ -20,7 +16,7 @@ const Button = ({ id }) => {
                 </div>
             </button>
             <button
-                onClick={() => productHandle(id)}
+                // onClick={() => productHandle(id)}
                 className=' text-black font-semibold p-2 w-48 rounded
                         hover:bg-blue-300 transition ease-in-out
                         duration-100 mt-4 border border-gray-300'>
@@ -30,7 +26,7 @@ const Button = ({ id }) => {
                 </div>
             </button>
             <button
-                onClick={() => productHandle(id)}
+                // onClick={() => productHandle(id)}
                 className=' text-black font-semibold p-2 w-48 rounded
                     hover:bg-blue-300 transition ease-in-out
                     duration-100 mt-4 border border-gray-300'>

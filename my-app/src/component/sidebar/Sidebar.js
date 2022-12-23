@@ -1,5 +1,4 @@
 import React from 'react';
-
 import NavPage from '../navPage/NavePage'
 import FilterElement from '../sideberFilterElement/FilterElement';
 

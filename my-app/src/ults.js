@@ -37,132 +37,243 @@ export const sliders = [
     }
 ]
 
+// {"_id":{"$oid":"639c7f223a47bd26872c562c"}," name":"Galaxy Z Fold3 5G"," image":"https://mygalaxy.fdl.com.bd/assets/img/z-fold3/main.png"," title":" Galaxy Z Fold3 5G"," price":"BDT 195,999/-"," ram":"12 GB"," model":"521+5G"," black":["https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/black/1.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/black/2.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/black/3.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/black/4.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/black/5.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/black/6.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/black/7.png"],"white":["https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/green/1.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/green/2.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/green/3.png","https://mygalaxy.fdl.com.bd/assets/img/z-fold3/thumbs/green/4.png"],"desc":"Samsung Best model phone","Folded":"158.2 x 67.1 x 14.4-16 mm","unfolded":"166 x 72.2 x 6.9 mm","weight":"271g","SIM":"2 SIM","Type":"QXGA+Dynamic AMOLED 2x","Size":"7.6 Inch","Camera":"Cover camera:10 MP,Main wide camra :12 MB Font Camera:10 MP","storage":"256GB","battery":"4,400 mAh, 25W Fast Charging","Colors":"Phantom Green, Phantom Black"}
 
-export const products = [
+
+
+export const headPhone = [
     {
-        id: 0,
-        name: "samsungGalaxy",
-        image: "https://images.samsung.com/is/image/samsung/p6pim/bd/sm-a235flbhbkd/gallery/bd-galaxy-a23-sm-a235-sm-a235flbhbkd-thumb-532156976?$320_320_PNG$",
-        title: "Samsung Galaxy F23",
-        price: "3000000",
-        ram: "8GB",
-        model: "521+5G",
-        quantity: 5,
-        storage: "32GB",
-        battery: "24 hours",
-        desc: "Samsung Best model phone",
-        similarPic: [
-            "https://images-eu.ssl-images-amazon.com/images/I/71AvQd3VzqL._AC._SR360,460.jpg",
-            "https://www.mobiledokan.com/wp-content/uploads/2022/04/Walton-Primo-GH11.jpg",
-            "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno6-4g-oversea/listpage/Phone-List-Page-product-list-Aurora-427-x-600.png.thumb.webp",
-            "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
-        ]
-
-
+        "id": "1",
+        "title": "Lenovo HD200 Bluetooth Wireless Headphone",
+        "featureKey": [
+            "40mm powerful driver",
+            "Bluetooth v5.0",
+            "20Hrs of long paying time",
+            "Ergonomic comfort ear-cap"
+        ],
+        "model": "HD200",
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/lenovo/hd200/lenovo-hd200-wireless-headphone-01-228x228.webp",
+        "price": "1,500/-",
+        "regular-Price": "2,000/-",
+        "brand": "Lenovo",
+        "spacification": [
+            "Technical Specification",
+            "Physical Specification",
+            "Microphone",
+            "Warranty Information"
+        ],
+        "color": "Black",
+        "daimention": "20*10*5cm",
+        "weight": "300g",
+        "frequency": "20-20kHz",
+        "connectivity": "Wearless",
+        "sensitivity": "101±3dB",
+        "driverMagnet": "40mm",
+        "manufacturingWarranty": "No Warranty"
     },
     {
-        id: 1,
-        name: "samsung",
-        image: "https://images.samsung.com/is/image/samsung/p6pim/bd/sm-a235flbhbkd/gallery/bd-galaxy-a23-sm-a235-sm-a235flbhbkd-thumb-532156976?$320_320_PNG$",
-        title: "SamsungGalaxy F23",
-        price: "3000000",
-        ram: "2GB",
-        model: "521+5G",
-        quantity: 5,
-        storage: "32GB",
-        battery: "24 hours",
-        desc: "Samsung Best model phone",
-        similarPic: [
-            "https://images-eu.ssl-images-amazon.com/images/I/71AvQd3VzqL._AC._SR360,460.jpg",
-            "https://www.mobiledokan.com/wp-content/uploads/2022/04/Walton-Primo-GH11.jpg",
-            "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno6-4g-oversea/listpage/Phone-List-Page-product-list-Aurora-427-x-600.png.thumb.webp",
-            "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
-        ]
-
-
+        "id": "2",
+        "title": "Jabra Evolve 40 MS/UC DUO Dual Ear Noise Canceling USB Headphone",
+        "featureKey": [
+            "MPN: 6399-823-109, 6399-829-209",
+            "Jabra Intelligent Call Transfer",
+            "3.5 mm jack for better connectivity"
+        ],
+        "model": "Jabra Evolve 40",
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/jabra/evolve-40/evolve-40-228x228.jpg",
+        "price": "9,900/-",
+        "regular-Price": "10,800/-",
+        "brand": "Jabra",
+        "spacification": [
+            "Technical Specification",
+            "Physical Specification",
+            "Microphone",
+            "Warranty Information"
+        ],
+        "color": "Black",
+        "daimention": "20*10*5cm",
+        "weight": "171g",
+        "frequency": "100Hz – 10kHz",
+        "connectivity": "Wired",
+        "sensitivity": "93.6dB",
+        "driverMagnet": "40mm",
+        "manufacturingWarranty": "02 year warranty"
     },
     {
-        id: 2,
-        name: "nokiya",
-        image: "https://images.samsung.com/is/image/samsung/p6pim/bd/sm-a235flbhbkd/gallery/bd-galaxy-a23-sm-a235-sm-a235flbhbkd-thumb-532156976?$320_320_PNG$",
-        title: "Samsung Galaxy F23",
-        price: "300000",
-        ram: "4GB",
-        model: "521+5G",
-        quantity: 5,
-        storage: "32GB",
-        battery: "24 hours",
-        desc: "Samsung Best model phone",
-        similarPic: [
-            "https://images-eu.ssl-images-amazon.com/images/I/71AvQd3VzqL._AC._SR360,460.jpg",
-            "https://www.mobiledokan.com/wp-content/uploads/2022/04/Walton-Primo-GH11.jpg",
-            "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno6-4g-oversea/listpage/Phone-List-Page-product-list-Aurora-427-x-600.png.thumb.webp",
-            "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
-        ]
-
-
+        "id": "3",
+        "title": "Lenovo HD200 Bluetooth Wireless Headphone",
+        "featureKey": [
+            "40mm powerful driver",
+            "Bluetooth v5.0",
+            "20Hrs of long paying time",
+            "Ergonomic comfort ear-cap"
+        ],
+        "model": "HD200",
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/lenovo/hd200/lenovo-hd200-wireless-headphone-01-228x228.webp",
+        "price": "1,500/-",
+        "regular-Price": "2,000/-",
+        "brand": "Lenovo",
+        "spacification": [
+            "Technical Specification",
+            "Physical Specification",
+            "Microphone",
+            "Warranty Information"
+        ],
+        "color": "Black",
+        "daimention": "20*10*5cm",
+        "weight": "300g",
+        "frequency": [
+            "Speaker bandwidth - Music mode: HiFi, 20Hz – 20kHz (wideband)",
+            "Speaker bandwidth - Conference mode: 150Hz - 7 kHz (wideband)"
+        ],
+        "connectivity": "Wired",
+        "sensitivity": "101±3dB",
+        "driverMagnet": "40mm",
+        "manufacturingWarranty": "No Warranty"
     },
     {
-        id: 3,
-        name: "iphone",
-        image: "https://images.samsung.com/is/image/samsung/p6pim/bd/sm-a235flbhbkd/gallery/bd-galaxy-a23-sm-a235-sm-a235flbhbkd-thumb-532156976?$320_320_PNG$",
-        title: "Samsung Galaxy F23",
-        price: "4000000",
-        ram: "6GB",
-        model: "521+5G",
-        storage: "32GB",
-        battery: "24 hours",
-        quantity: 5,
-        desc: "Samsung Best model phone",
-        similarPic: [
-            "https://images-eu.ssl-images-amazon.com/images/I/71AvQd3VzqL._AC._SR360,460.jpg",
-            "https://www.mobiledokan.com/wp-content/uploads/2022/04/Walton-Primo-GH11.jpg",
-            "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno6-4g-oversea/listpage/Phone-List-Page-product-list-Aurora-427-x-600.png.thumb.webp",
-            "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
-        ]
-
-
+        "id": "4",
+        "title": "Lenovo HD200 Bluetooth Wireless Headphone",
+        "featureKey": [
+            " 40mm powerful driver",
+            "Bluetooth v5.0",
+            "20Hrs of long paying time",
+            "Ergonomic comfort ear-cap"
+        ],
+        "model": "HD200",
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/lenovo/hd200/lenovo-hd200-wireless-headphone-01-228x228.webp",
+        "price": "1,500/-",
+        "regular-Price": "2,000/-",
+        "brand": "Lenovo",
+        "spacification": [
+            "Technical Specification",
+            "Physical Specification",
+            "Microphone",
+            "Warranty Information"
+        ],
+        "color": "Black",
+        "daimention": "20*10*5cm",
+        "weight": "300g",
+        "frequency": "20-20kHz",
+        "connectivity": "Wearless",
+        "sensitivity": "101±3dB",
+        "driverMagnet": "40mm",
+        "manufacturingWarranty": "No Warranty"
     },
     {
-        id: 4,
-        name: "samsung Ab32",
-        image: "https://images.samsung.com/is/image/samsung/p6pim/bd/sm-a235flbhbkd/gallery/bd-galaxy-a23-sm-a235-sm-a235flbhbkd-thumb-532156976?$320_320_PNG$",
-        title: "Samsung Galaxy F23",
-        price: "2000000",
-        ram: "2GB",
-        model: "521+5G",
-        quantity: 5,
-        storage: "32GB",
-        battery: "24 hours",
-        desc: "Samsung Best model phone",
-        similarPic: [
-            "https://images-eu.ssl-images-amazon.com/images/I/71AvQd3VzqL._AC._SR360,460.jpg",
-            "https://www.mobiledokan.com/wp-content/uploads/2022/04/Walton-Primo-GH11.jpg",
-            "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno6-4g-oversea/listpage/Phone-List-Page-product-list-Aurora-427-x-600.png.thumb.webp",
-            "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
-        ]
-
-
+        "id": "5",
+        "title": "Lenovo HD200 Bluetooth Wireless Headphone",
+        "featureKey": [
+            " 40mm powerful driver",
+            "Bluetooth v5.0",
+            "20Hrs of long paying time",
+            "Ergonomic comfort ear-cap"
+        ],
+        "model": "HD200",
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/lenovo/hd200/lenovo-hd200-wireless-headphone-01-228x228.webp",
+        "price": "1,500/-",
+        "regular-Price": "2,000/-",
+        "brand": "Lenovo",
+        "spacification": [
+            "Technical Specification",
+            "Physical Specification",
+            "Microphone",
+            "Warranty Information"
+        ],
+        "color": "Black",
+        "daimention": "20*10*5cm",
+        "weight": "300g",
+        "frequency": "20-20kHz",
+        "connectivity": "Wearless",
+        "sensitivity": "101±3dB",
+        "driverMagnet": "40mm",
+        "manufacturingWarranty": "No Warranty"
     },
     {
-        id: 5,
-        name: "Apple",
-        image: "https://images.samsung.com/is/image/samsung/p6pim/bd/sm-a235flbhbkd/gallery/bd-galaxy-a23-sm-a235-sm-a235flbhbkd-thumb-532156976?$320_320_PNG$",
-        title: "Samsung Galaxy F23",
-        price: "3000000",
-        ram: "8GB",
-        model: "521+5G",
-        quantity: 5,
-        storage: "32GB",
-        battery: "24 hours",
-        desc: "Samsung Best model phone",
-        similarPic: [
-            "https://images-eu.ssl-images-amazon.com/images/I/71AvQd3VzqL._AC._SR360,460.jpg",
-            "https://www.mobiledokan.com/wp-content/uploads/2022/04/Walton-Primo-GH11.jpg",
-            "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno6-4g-oversea/listpage/Phone-List-Page-product-list-Aurora-427-x-600.png.thumb.webp",
-            "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-5g-r1.jpg"
-        ]
-
-    }
+        "id": "6",
+        "title": "Lenovo HD200 Bluetooth Wireless Headphone",
+        "featureKey": [
+            " 40mm powerful driver",
+            "Bluetooth v5.0",
+            "20Hrs of long paying time",
+            "Ergonomic comfort ear-cap"
+        ],
+        "model": "HD200",
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/lenovo/hd200/lenovo-hd200-wireless-headphone-01-228x228.webp",
+        "price": "1,500/-",
+        "regular-Price": "2,000/-",
+        "brand": "Lenovo",
+        "spacification": [
+            "Technical Specification",
+            "Physical Specification",
+            "Microphone",
+            "Warranty Information"
+        ],
+        "color": "Black",
+        "daimention": "20*10*5cm",
+        "weight": "300g",
+        "frequency": "20-20kHz",
+        "connectivity": "Wearless",
+        "sensitivity": "101±3dB",
+        "driverMagnet": "40mm",
+        "manufacturingWarranty": "No Warranty"
+    },
+    {
+        "id": "7",
+        "title": "Lenovo HD200 Bluetooth Wireless Headphone",
+        "featureKey": [
+            " 40mm powerful driver",
+            "Bluetooth v5.0",
+            "20Hrs of long paying time",
+            "Ergonomic comfort ear-cap"
+        ],
+        "model": "HD200",
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/lenovo/hd200/lenovo-hd200-wireless-headphone-01-228x228.webp",
+        "price": "1,500/-",
+        "regular-Price": "2,000/-",
+        "brand": "Lenovo",
+        "spacification": [
+            "Technical Specification",
+            "Physical Specification",
+            "Microphone",
+            "Warranty Information"
+        ],
+        "color": "Black",
+        "daimention": "20*10*5cm",
+        "weight": "300g",
+        "frequency": "20-20kHz",
+        "connectivity": "Wearless",
+        "sensitivity": "101±3dB",
+        "driverMagnet": "40mm",
+        "manufacturingWarranty": "No Warranty"
+    },
+    {
+        "id": "8",
+        "title": "Lenovo HD200 Bluetooth Wireless Headphone",
+        "featureKey": [
+            " 40mm powerful driver",
+            "Bluetooth v5.0",
+            "20Hrs of long paying time",
+            "Ergonomic comfort ear-cap"
+        ],
+        "model": "HD200",
+        "img": "https://www.startech.com.bd/image/cache/catalog/headphone/lenovo/hd200/lenovo-hd200-wireless-headphone-01-228x228.webp",
+        "price": "1,500/-",
+        "regular-Price": "2,000/-",
+        "brand": "Lenovo",
+        "spacification": [
+            "Technical Specification",
+            "Physical Specification",
+            "Microphone",
+            "Warranty Information"
+        ],
+        "color": "Black",
+        "daimention": "20*10*5cm",
+        "weight": "300g",
+        "frequency": "20-20kHz",
+        "connectivity": "Wearless",
+        "sensitivity": "101±3dB",
+        "driverMagnet": "40mm",
+        "manufacturingWarranty": "No Warranty"
+    },
 ]
-
